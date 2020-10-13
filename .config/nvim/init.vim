@@ -13,6 +13,7 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'othree/yajs.vim'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 colorscheme gruvbox
