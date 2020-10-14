@@ -6,3 +6,4 @@
 
 - [vim-plug](https://github.com/junegunn/vim-plug)
 - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+- [Alacritty](https://github.com/alacritty/alacritty)
