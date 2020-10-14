@@ -1,6 +1,6 @@
 # Used font
 
-[FiraCode Nerd Font](https://www.nerdfonts.com/font-download)
+[FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 # Software to install
 
