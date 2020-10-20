@@ -1,3 +1,7 @@
+// coc-explorer
+// coc-prettier
+// coc-tsserver
+// coc-tslint-plugin
 {
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
@@ -7,8 +11,6 @@
     "json",
     "typescript"
   ],
-  "eslint.autoFixOnSave": true,
-  "eslint.filetypes": ["javascript", "typescript"],
   "prettier.disableSuccessMessage": true,
   "coc.preferences.formatOnType": true
 }

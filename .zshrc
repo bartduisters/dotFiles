@@ -1,8 +1,3 @@
-###
-# Start tmux by default
-###
-if [ "$TMUX" = "" ]; then tmux; fi
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -14,6 +9,7 @@ export ZSH="/home/barry/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="gruvbox"
+SOLARIZED_THEME="dark"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -111,10 +107,12 @@ compinit
 _comp_options+=(globdots) # With hidden files
 # Vim like bindings
 bindkey -v
-export KEYTIMETOUT=1  
+export KEYTIMEOUT=1  
 # Vim movement in autocomplete list
 zmodload zsh/complist
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

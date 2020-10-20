@@ -208,3 +208,7 @@ bindsym $mod+Shift+s --release exec scrot -s '%Y-%m-%d-%s_screenshot_$wx$h.jpg' 
 ######################################################################
 bindsym XF86MonBrightnessDown exec light -U 10
 bindsym XF86MonBrightnessUp exec light -A 10
+
+
+# remove title when split containers
+new_window 1pixel
