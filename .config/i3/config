@@ -212,3 +212,7 @@ bindsym XF86MonBrightnessUp exec light -A 10
 
 # remove title when split containers
 new_window 1pixel
+
+# toggle between qwerty and dvorak
+bindsym Mod4+n exec setxkbmap -layout us -variant dvp
+bindsym Mod4+b exec setxkbmap -layout us -variant intl
