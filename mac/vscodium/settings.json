@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "SynthWave '84",
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "update.showReleaseNotes": false,
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+}

@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "coc-angular": ">=0.1000.7",
-    "coc-explorer": ">=0.8.2",
-    "coc-prettier": ">=1.1.17",
-    "coc-tslint-plugin": ">=1.1.1",
-    "coc-tsserver": ">=1.5.8"
-  }
-}
