@@ -92,7 +92,7 @@ prompt_context() {
     # prompt_segment 237 7 "%(!.%{%F{3}%}.)%n@%m"
   # fi
   case "$OSTYPE" in
-    darwin*)  OS_LOGO="\ue29e" ;; 
+    darwin*)  OS_LOGO="\uf8ff" ;; 
     linux*)   OS_LOGO="\ue712" ;;
   esac
   prompt_segment 237 7 $OS_LOGO

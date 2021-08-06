@@ -8,4 +8,3 @@ ln -s ~/Projects/dotFiles/mac/vscodium/product.json ~/Library/Application\ Suppo
 # VSCodium settings
 rm -rf ~/Library/Application\ Support/VSCodium/User/settings.json
 ln -s ~/Projects/dotFiles/mac/vscodium/settings.json ~/Library/Application\ Support/VSCodium/User/settings.json
-

@@ -38,7 +38,7 @@ brew tap homebrew/cask
 # Install programs for development
 
 printStep 'INSTALLING VSCODIUM'
-brew install vscodium
+brew install --cask vscodium
 addLineToFile "alias code=codium" ~/.zprofile
 
 printStep 'INSTALLING NVM'
@@ -50,24 +50,26 @@ nvm install --lts
 nvm use --lts
 
 printStep 'INSTALLING FTP CLIENT - CYBERDUCK'
-brew install cyberduck
+brew install --cask cyberduck
 
 printStep 'INSTALLING BROWSERS'
-brew install google-chrome
-brew install firefox
+brew install --cask google-chrome
+brew install --cask firefox
 
+printStep 'INSTALLING ITERM2'
+brew install --cask iterm2
 
 # Install programs for non development  
 printStep 'INSTALLING MEGASYNC'
-brew install megasync
+brew install --cask megasync
 printStep 'INSTALLING DISCORD'
-brew install discord
+brew install --cask discord
 printStep 'INSTALLING TELEGRAM'
-brew install telegram
+brew install --cask telegram
 printStep 'INSTALLING LIBREOFFICE'
-brew install libreoffice
+brew install --cask libreoffice
 printStep 'INSTALLING SPOTIFY'
-brew install spotify
+brew install --cask spotify
 
 # Install terminal based programs
 printStep 'INSTALLING TRANSMISSION - TORRENT'
@@ -75,6 +77,11 @@ brew install transmission # Formula
 printStep 'INSTALLING FZF - Fuzzy Finder'
 brew install fzf # Formula
 $(brew --prefix)/opt/fzf/install --no-bash --no-fish --key-bindings --completion --update-rc
+
+# Install custom font with ligatures
+brew tap homebrew/cask-fonts
+arch -arm64 brew install svn # Some casks use svn to clone, monsters
+brew install --cask font-fira-code
 
 printStep 'CLEANING UP HOMEBREW'
 brew cleanup
