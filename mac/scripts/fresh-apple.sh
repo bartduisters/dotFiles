@@ -66,6 +66,15 @@ printStep 'INSTALLING TELEGRAM'
 brew install telegram
 printStep 'INSTALLING LIBREOFFICE'
 brew install libreoffice
+printStep 'INSTALLING SPOTIFY'
+brew install spotify
+
+# Install terminal based programs
+printStep 'INSTALLING TRANSMISSION - TORRENT'
+brew install transmission # Formula
+printStep 'INSTALLING FZF - Fuzzy Finder'
+brew install fzf # Formula
+$(brew --prefix)/opt/fzf/install --no-bash --no-fish --key-bindings --completion --update-rc
 
 printStep 'CLEANING UP HOMEBREW'
 brew cleanup
