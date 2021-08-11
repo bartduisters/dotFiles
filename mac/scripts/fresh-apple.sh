@@ -71,12 +71,14 @@ brew install --cask libreoffice
 printStep 'INSTALLING SPOTIFY'
 brew install --cask spotify
 
-# Install terminal based programs
+# Install misc.
 printStep 'INSTALLING TRANSMISSION - TORRENT'
-brew install transmission # Formula
+brew install --cask transmission
 printStep 'INSTALLING FZF - Fuzzy Finder'
 brew install fzf # Formula
 $(brew --prefix)/opt/fzf/install --no-bash --no-fish --key-bindings --completion --update-rc
+printStep 'INSTALLING COREUTILS'
+brew install coreutils 
 
 # Install custom font with ligatures
 brew tap homebrew/cask-fonts
