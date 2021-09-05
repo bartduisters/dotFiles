@@ -59,6 +59,12 @@ brew install --cask firefox
 printStep 'INSTALLING ITERM2'
 brew install --cask iterm2
 
+printStep 'INSTALLING UTM - VIRTUALIZATION'
+brew install --cask utm
+
+printStep 'INSTALLING POSTMAN'
+brew install --cask postman
+
 # Install programs for non development  
 printStep 'INSTALLING MEGASYNC'
 brew install --cask megasync
