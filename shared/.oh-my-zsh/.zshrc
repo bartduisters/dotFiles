@@ -101,7 +101,35 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Projects
+alias cdp='cd ~/Projects'
+
+# Work environments
+alias thanos-snap='pkill -9 -f "/Applications/"'
+alias discord='open -a Discord'
+alias telegram='open -a Telegram'
+alias slack='open -a Slack'
+alias chat-apps-work='discord && telegram && slack'
+alias chat-apps='discord && telegram'
+
+## Heatbox
+alias heatbox="chat-apps-work && open -a Docker && code ~/Projects/heatbox/heat-box/frontend && code ~/Projects/heatbox/heat-box/backend && open -a Safari 'https://logi-cal.atlassian.net/jira/software/projects/LC/boards/1'"
+alias hb="heatbox"
+alias hbu="cd ~/Projects/heatbox/heat-box/z_docker && docker-compose up -d && cd -"
+## Sportcash one
+alias sco="chat-apps && code ~/Projects/sportscashone/nft-ui"
+
+## Syntra
+alias syntra="discord && open -a iterm"
+
+## Code Coaching
+alias cc="code ~/Projects/code-coaching/premium-ui && code ~/Projects/code-coaching/premium-backend && cd ~/Projects/code-coaching/"
+### Code Coaching script
+alias uuid="npx @code-coaching/random uuid | pbcopy"
+
 # Add random Pokémon when opening terminal
 pokemon-colorscripts -r
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"

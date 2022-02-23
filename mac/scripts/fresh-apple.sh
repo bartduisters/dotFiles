@@ -39,7 +39,8 @@ brew tap homebrew/cask
 
 printStep 'INSTALLING VSCODIUM'
 brew install --cask vscodium
-addLineToFile "alias code=codium" ~/.zprofile
+# addLineToFile "alias code=codium" ~/.zprofile
+bew install --cask visual-studio-code
 
 printStep 'INSTALLING NVM'
 brew install nvm
@@ -65,6 +66,14 @@ brew install --cask utm
 printStep 'INSTALLING POSTMAN'
 brew install --cask postman
 
+printStep 'INSTALLING COMPOSER'
+brew install composer
+
+printStep 'INSTALLING ROSETTA2' #compatibility layer for Apple Silicon chips
+softwareupdate --install-rosetta --agree-to-license
+printStep 'INSTALLING DOCKER'
+brew install --cask docker
+
 # Install programs for non development  
 printStep 'INSTALLING MEGASYNC'
 brew install --cask megasync
@@ -76,6 +85,14 @@ printStep 'INSTALLING LIBREOFFICE'
 brew install --cask libreoffice
 printStep 'INSTALLING SPOTIFY'
 brew install --cask spotify
+printStep 'INSTALLING LEDGER-LIVE'
+brew install --cask ledger-live
+printStep 'INSTALLING SLACK'
+brew install --cask slack
+printStep 'INSTALLING OBS'
+brew install --cask obs
+printStep 'INSTALLING IMAGEMAGICK'
+brew install imagemagick
 
 # Install misc.
 printStep 'INSTALLING TRANSMISSION - TORRENT'
@@ -88,7 +105,7 @@ brew install coreutils
 
 # Install custom font with ligatures
 brew tap homebrew/cask-fonts
-arch -arm64 brew install svn # Some casks use svn to clone, monsters
+# arch -arm64 brew install svn # Some casks use svn to clone, monsters
 brew install --cask font-fira-code
 
 printStep 'CLEANING UP HOMEBREW'
