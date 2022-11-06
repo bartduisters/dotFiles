@@ -1,0 +1,47 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "cmd+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+;",
+    "command": "workbench.action.togglePanel"
+  },
+
+  {
+    "key": "cmd+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  {
+    "key": "cmd+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // comment all visually selected lines
+  {
+    "key": "cmd+/",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  {
+    "key": "cmd+shift+m",
+    "command": "workbench.action.toggleFullScreen"
+  },
+
+  // multi cursor select neovim
+
+  // example of not sending a key to NeoVim
+
+  {
+    "command": "-vscode-neovim.send",
+    "key": "cmd+d"
+  }
+
+  // map cmd+v to <C-v>
+  
+]

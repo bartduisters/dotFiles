@@ -17,7 +17,7 @@
   },
   "terminal.integrated.fontFamily": "Fira Code",
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -34,12 +34,10 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "SynthWave '84",
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "html.format.indentInnerHtml": true,
-  "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
   "workbench.editor.closeOnFileDelete": true,
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
@@ -48,9 +46,43 @@
     "*": true,
     "yaml": false,
     "plaintext": true,
-    "markdown": true
+    "markdown": true,
+    "vue": true,
+    "javascript": true,
+    "csharp": true
   },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "git.path": "",
+  "volar.autoCompleteRefs": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "editor.rulers": [],
+  "omnisharp.useModernNet": false,
+  "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current",
+  "workbench.colorTheme": "SynthWave '84",
+  "liveServer.settings.CustomBrowser": "firefox",
+  "editor.largeFileOptimizations": false,
+  "files.watcherExclude": {
+    "**/word-list.js": true
+  },
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "svelte.enable-ts-plugin": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
   }
 }

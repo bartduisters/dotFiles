@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Projects
 alias cdp='cd ~/Projects'
+alias toster='cd ~/Projects/code-coaching/toster'
 
 # Work environments
 alias thanos-snap='pkill -9 -f "/Applications/"'
@@ -123,7 +124,7 @@ alias sco="chat-apps && code ~/Projects/sportscashone/nft-ui"
 alias syntra="discord && open -a iterm"
 
 ## Code Coaching
-alias cc="code ~/Projects/code-coaching/premium-ui && code ~/Projects/code-coaching/premium-backend && cd ~/Projects/code-coaching/"
+alias cc="code ~/Projects/code-coaching/premium-ui && code ~/Projects/code-coaching/premium-backend && cd ~/Projects/code-coaching/dockerization/code-coaching-development && docker-compose -p 'code-coaching' up -d && open -a /Applications/Firefox.app 'http://localhost:8080'"
 ### Code Coaching script
 alias uuid="npx @code-coaching/random uuid | pbcopy"
 
