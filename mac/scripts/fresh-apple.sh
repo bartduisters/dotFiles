@@ -40,7 +40,8 @@ brew tap homebrew/cask
 printStep 'INSTALLING VSCODIUM'
 brew install --cask vscodium
 # addLineToFile "alias code=codium" ~/.zprofile
-bew install --cask visual-studio-code
+brew install --cask visual-studio-code
+brew install neovim
 
 printStep 'INSTALLING NVM'
 brew install nvm
@@ -87,8 +88,6 @@ printStep 'INSTALLING SPOTIFY'
 brew install --cask spotify
 printStep 'INSTALLING LEDGER-LIVE'
 brew install --cask ledger-live
-printStep 'INSTALLING SLACK'
-brew install --cask slack
 printStep 'INSTALLING OBS'
 brew install --cask obs
 printStep 'INSTALLING IMAGEMAGICK'
