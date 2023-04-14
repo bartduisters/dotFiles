@@ -37,9 +37,7 @@ brew tap homebrew/cask
 
 # Install programs for development
 
-printStep 'INSTALLING VSCODIUM'
-brew install --cask vscodium
-# addLineToFile "alias code=codium" ~/.zprofile
+printStep 'INSTALLING IDEs'
 brew install --cask visual-studio-code
 brew install neovim
 
@@ -67,9 +65,6 @@ brew install --cask utm
 printStep 'INSTALLING POSTMAN'
 brew install --cask postman
 
-printStep 'INSTALLING COMPOSER'
-brew install composer
-
 printStep 'INSTALLING ROSETTA2' #compatibility layer for Apple Silicon chips
 softwareupdate --install-rosetta --agree-to-license
 printStep 'INSTALLING DOCKER'
@@ -82,12 +77,8 @@ printStep 'INSTALLING DISCORD'
 brew install --cask discord
 printStep 'INSTALLING TELEGRAM'
 brew install --cask telegram
-printStep 'INSTALLING LIBREOFFICE'
-brew install --cask libreoffice
 printStep 'INSTALLING SPOTIFY'
 brew install --cask spotify
-printStep 'INSTALLING LEDGER-LIVE'
-brew install --cask ledger-live
 printStep 'INSTALLING OBS'
 brew install --cask obs
 printStep 'INSTALLING IMAGEMAGICK'
