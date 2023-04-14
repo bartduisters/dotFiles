@@ -13,7 +13,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll": true,
-    "source.organizeImports": true
+    "source.organizeImports": true,
+    "source.removeUnused": true
   },
   "terminal.integrated.fontFamily": "Fira Code",
   "[typescript]": {
@@ -33,9 +34,6 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "html.format.indentInnerHtml": true,
   "editor.formatOnSave": true,
@@ -57,13 +55,16 @@
   "files.autoSave": "afterDelay",
   "workbench.editor.splitInGroupLayout": "vertical",
   "git.path": "",
-  "volar.autoCompleteRefs": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.tabSize": 2
   },
   "editor.rulers": [],
   "omnisharp.useModernNet": false,
@@ -79,10 +80,55 @@
     "asvetliakov.vscode-neovim": 1
   },
   "editor.lineNumbers": "relative",
-  "editor.tabSize": 2,
   "svelte.plugin.svelte.note-new-transformation": false,
   "svelte.enable-ts-plugin": true,
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
-  }
+  },
+  "terminal.external.osxExec": "Warp.app",
+  "terminal.explorerKind": "external",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "prettier.enabledLanguageIds": [
+    "css",
+    "elm",
+    "flow",
+    "graphql",
+    "handlebars",
+    "html",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "less",
+    "markdown",
+    "mdx",
+    "php",
+    "postcss",
+    "ruby",
+    "scss",
+    "solidity",
+    "svelte",
+    "svg",
+    "typescript",
+    "typescriptreact",
+    "twig",
+    "vue",
+    "xml",
+    "yaml"
+  ],
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "quasar-docs.useNewDocs": true,
+  "git.openRepositoryInParentFolders": "always",
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.autoClosingDelete": "never",
+  "editor.autoClosingOvertype": "never",
+  "editor.autoClosingQuotes": "never"
 }

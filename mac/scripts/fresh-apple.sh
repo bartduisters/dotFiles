@@ -107,6 +107,16 @@ brew tap homebrew/cask-fonts
 # arch -arm64 brew install svn # Some casks use svn to clone, monsters
 brew install --cask font-fira-code
 
+# Install warp - the 21st century terminal
+brew install --cask warp
+
+# Install OBS plugins
+brew install onnxruntime # necessary for chrome key
+printStep 'Install: https://github.com/royshil/obs-backgroundremoval/releases/tag/v0.3.0-beta'
+
+printStep 'INSTALLING RAYCAST'
+brew install --cask raycast
+
 printStep 'CLEANING UP HOMEBREW'
 brew cleanup
 
