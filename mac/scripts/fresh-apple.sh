@@ -35,11 +35,11 @@ printStep 'UPGRADING HOMEBREW'
 printStep 'TAPPING CUSTOM CASKS'
 brew tap homebrew/cask
 
-# Install programs for development
+brew install --cask karabiner-elements
 
+# Install programs for development
 printStep 'INSTALLING IDEs'
 brew install --cask visual-studio-code
-brew install neovim
 
 printStep 'INSTALLING NVM'
 brew install nvm
@@ -55,9 +55,6 @@ brew install --cask cyberduck
 printStep 'INSTALLING BROWSERS'
 brew install --cask google-chrome
 brew install --cask firefox
-
-printStep 'INSTALLING ITERM2'
-brew install --cask iterm2
 
 printStep 'INSTALLING UTM - VIRTUALIZATION'
 brew install --cask utm
@@ -107,6 +104,14 @@ printStep 'Install: https://github.com/royshil/obs-backgroundremoval/releases/ta
 
 printStep 'INSTALLING RAYCAST'
 brew install --cask raycast
+
+printStep 'INSTALLING UNITY'
+brew install --cask unity
+printStep 'INSTALLING BLENDER'
+brew install --cask blender
+
+printStep 'INSTALLING MONGODB-COMPASS'
+brew install --cask mongodb-compass
 
 printStep 'CLEANING UP HOMEBREW'
 brew cleanup

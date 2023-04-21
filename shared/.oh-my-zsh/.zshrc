@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Projects
 alias cdp='cd ~/Projects'
-alias toster='cd ~/Projects/code-coaching/toster'
+alias toster='cd ~/Projects/toster'
 
 # Work environments
 alias thanos-snap='pkill -9 -f "/Applications/"'
@@ -121,8 +121,8 @@ alias feathers="npx @feathersjs/cli@pre"
 ## Syntra
 alias syntra="discord && open -a iterm"
 
-## Code Coaching
-alias cc="code ~/Projects/code-coaching/premium-ui && code ~/Projects/code-coaching/premium-backend && cd ~/Projects/code-coaching/dockerization/code-coaching-development && docker-compose -p 'code-coaching' up -d && open -a /Applications/Firefox.app 'http://localhost:8080'"
+## Vuetify
+alias vuetiful="code ~/Projects/vuetiful/docs && code ~/Projects/vuetiful/ui"
 ### Code Coaching script
 alias uuid="npx @code-coaching/random uuid | pbcopy"
 alias gunity="touch .gitignore && npx @code-coaching/generate gitignore unity > .gitignore"
@@ -133,9 +133,6 @@ pokemon-colorscripts -r
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
 export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"
-
-
-source /Users/barry/.docker/init-zsh.sh || true # Added by Docker Desktop
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
